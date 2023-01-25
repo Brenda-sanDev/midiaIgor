@@ -1,0 +1,137 @@
+
+/*-------CONTATO*/
+.contatos{
+    height: 80vh;
+    background-size: cover;
+    display: flex;
+  
+}
+.imgContato{
+    width: 80vh;
+    padding: 0;
+
+}
+
+.todoContato{
+    margin-top: 15vh; 
+    margin-left: 40vh;
+}
+
+.comercial-links{
+    display: flex;
+    align-items: center;
+}
+
+.comercial-links a{
+    background-color: rgb(219, 220, 221);
+    text-decoration: none;
+    color: #fff;
+    border-radius: 5px;
+    width: 150px;
+    padding: 6px 0;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    transition: 0.5s;
+    margin: 10px;
+  
+}
+
+.comercial-links a:hover{
+    background-color: rgb(99, 100, 100);
+    color: #000;
+    
+}
+
+.comercial-links svg{
+    fill: rgb(10, 10, 10);
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
+
+.social-links{
+    display: flex;
+    justify-content: center;
+    margin: 0 0 20px 0;
+}
+
+.social-links a{
+    background-color: rgb(219, 220, 221);
+    text-decoration: none;
+    color: #fff;
+    border-radius: 5px;
+    width: 150px;
+    padding: 6px 0;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    transition: 0.5s;
+    margin: 0 5px;
+
+}
+.social-links a:hover{
+    background-color: rgb(99, 100, 100);
+    color: #000;
+}
+.social-links img{
+    width: 20px;
+    margin-right: 10px;
+}
+
+
+.designed{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ 
+    
+}
+
+.designed p{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    color: rgb(63, 65, 65);
+    border-bottom: 1px solid #000;
+}
+
+.logo-link{
+    transition: 0.5s;
+    transform: scale(1);
+    margin-bottom: 20px;
+}
+
+.logo-link:hover{
+    transform: scale(1.05);
+}
+.logo-idk{
+    margin-top: 10px;
+    width: 150px;
+}
+
+
+/*---------RESPONSIVE---*/
+
+@media only screen and (max-width: 600px){
+    .contatos{
+        height: 50vh;
+        background-image: none;
+        display: flex;
+        justify-content: center;
+    }
+    .imgContato{
+        display: none;
+    
+    }
+    
+    .todoContato{
+        margin-top: 5vh; 
+        margin-left: 0vh;
+    }
+    
+
+    
+}
+    
+    

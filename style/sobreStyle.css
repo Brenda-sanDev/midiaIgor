@@ -1,0 +1,46 @@
+.sobre{
+    background-color: #e3995e;
+    padding: 10vh ;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.sobre-text p{
+    font-size: 17px;
+
+}
+
+.imgIgor{
+    width: 80vh;
+    margin: 5vh;
+}
+
+/*---------RESPONSIVE---*/
+
+@media only screen and (max-width: 800px){
+    .sobre{
+        padding: 10vh ;
+    }
+    
+    .container{
+        display: grid;
+        
+    }
+  
+    .sobre-text p{
+        font-size: 15px;
+    
+    }
+    
+    .imgIgor{
+        width: 40vh;
+        margin: 3vh;
+    }
+    
+}
